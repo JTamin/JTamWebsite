@@ -1,0 +1,99 @@
+h1 {
+    font-size: 40px;
+    font-style: italic;
+}
+
+p {
+    font-family: Robot, arial;
+    font-weight: solid;
+    font-size: 18px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-content {
+    background-color: rgb(247, 247, 247);
+    margin-top: 150px;
+    margin-left: 20px;
+    max-width: 800px;
+    height: 820px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.content-img {
+    height: 600px;
+    min-width: 800px;
+    max-width: 1000px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.content-img1 {
+    width: 450px;
+    object-fit: contain;
+}
+
+.bottom-content {
+    background-color: rgb(247, 247, 247);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 15px;
+    height: 640px;
+    margin-left: 0;
+    margin-top: 250px;
+    max-width: 100%;
+}
+
+.ban-img {
+    width: 300px;
+    height: 200px;
+}
+
+.right-content {
+    background-color: rgb(247, 247, 247);
+    margin-top: 150px;
+    margin-left: 30px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 370px;
+}
+
+.btn {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn:active {
+    opacity: 0.5;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.img7 {
+    width: 450px;
+    height: 300x;
+}
